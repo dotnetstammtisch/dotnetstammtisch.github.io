@@ -1,121 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-  <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107311773-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        gtag('config', 'UA-107311773-1');
+    </script>
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>.NET Stammtisch Linz</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Nächter Termin</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Frühere Termine</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Über uns</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-heading text-uppercase" style="text-shadow: 0 0 7px #000">.NET Stammtisch Linz</div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Services -->
-    <section id="services">
-      <div class="container">
-
-        <div class="row">
-
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <img src="img/bg.jpg" style="width: 100%"/>
+        <h1>.NET Stammtisch Linz</h1>
+        <p>Meetup im Linzer Raum, für Leute die an .NET Entwicklung interessiert sind. Ziel soll sein die Möglichkeit für einen Erfahrungsaustausch in Linz zu schaffen rund um Microsoft/.NET/Azure Themen. Der .NET Stammtisch ist kostenlos und jeder darf kommen. Dabei soll es 2-3 Talks geben. Thematisch ist alles erlaubt das irgendwie mit .NET Framework oder Microsoft Azure zu tun hat.</p>
+        <i>Eine Anmeldung auf Meetup oder Facebook hilft uns die richtigen Mengen an Verpflegung bereitstellen zu können. Danke!</i>
         
-            <h2>.NET Stammtisch #4 (<a href="https://www.meetup.com/NET-Stammtisch-Linz/events/247045584/">Meetup</a>, <a href="https://www.facebook.com/events/868682779976980">Facebook</a>)</h2>
-            <dl class="dl-horizontal">
-                <dt>Datum</dt><dd>20.02.2018, 18:30</dd>
-                <dt>Location</dt>
-                <dd>
-                    <a href="https://factory300.spaces.nexudus.com/en/events/view//471680211/net-stammtisch-linz-4">Factory300</a> (Peter-Behrens-Platz 10, 4020 Linz)
-                    <div class="alert alert-info">
-                        <p>Die Veranstaltung ist natürlich wie immer kostenlos. Der Veranstalter hat uns jedoch darum gebeten, trotzdem auf "Get tickets" beim verlinkten Event zu klicken. Vielen Dank!</p>
-                    </div>
-                
-                </dd>
-                <dt>Talk 1</dt>
-                <dd>
-                    <p><strong>Igor Rončević: Super-powers and the Compiler</strong></p>
-                    <p>
-    Try to imagine how powerful would it be if programmers could look at their code through the eyes of their compilers. If they could automatically analyze their code, improve it, change it, cover it with tests, etc. This would definitely be a super-power! Until recently, this super-power was at disposal only to rare ones who mastered the difficult skill of compiler development. Roslyn - C# and VB.NET Compiler-as-a-Service - gives this super-powers to every .NET developer.
-    
-    In the beginning of the talk we discuss compilers in general. How do they work? What makes them so complex to develop?
-    
-    Then we introduce Roslyn and discuss how and why it "changed the game" for .NET developers. We present few concrete projects built on top of Roslyn, and move toward examples of potential usage of Roslyn in our own projects. In particular, we discuss how to utilize Roslyn to increase code quality of our own projects.
-                    </p>
-                </dd>
-                <dt>Talk 2</dt>
-                <dd>
-                    <p><strong>Ralph Mayr: This is not your father's COBOL</strong></p>
-                    <p>
-    Despite being over 50 years old COBOL today is more relevant than ever before. It powers applications of the world's most crucial industries, including baking, healthcare and aviation. But as the software industry is changing rapidly, how can organizations bridge the ever-widening gap between their core business applications and the modern agile development world with its microservices, mobile devices and the Cloud?
-    In this hands-on, live-coding session we're going to explore some answers to those questions. We'll start with the foundations of COBOL and Visual COBOL (the COBOL dialect that runs on the .NET CLR), and see how that fits in to a modern IT landscape.
-                    </p>
-                </dd>
-                <dt>Talk 3</dt>
-                <dd>To be announced.</dd>
-            </dl>
+        
+        <h2>.NET Stammtisch #4 (<a href="https://www.meetup.com/NET-Stammtisch-Linz/events/247045584/">Meetup</a>, <a href="https://www.facebook.com/events/868682779976980">Facebook</a>)</h2>
+        <dl class="dl-horizontal">
+            <dt>Datum</dt><dd>20.02.2018, 18:30</dd>
+            <dt>Location</dt>
+            <dd>
+                <a href="https://factory300.spaces.nexudus.com/en/events/view//471680211/net-stammtisch-linz-4">Factory300</a> (Peter-Behrens-Platz 10, 4020 Linz)
+                <div class="alert alert-info">
+                    <p>Die Veranstaltung ist natürlich wie immer kostenlos. Der Veranstalter hat uns jedoch darum gebeten, trotzdem auf "Get tickets" beim verlinkten Event zu klicken. Vielen Dank!</p>
+                </div>
             
+            </dd>
+            <dt>Talk 1</dt>
+            <dd>
+                <p><strong>Igor Rončević: Super-powers and the Compiler</strong></p>
+                <p>
+Try to imagine how powerful would it be if programmers could look at their code through the eyes of their compilers. If they could automatically analyze their code, improve it, change it, cover it with tests, etc. This would definitely be a super-power! Until recently, this super-power was at disposal only to rare ones who mastered the difficult skill of compiler development. Roslyn - C# and VB.NET Compiler-as-a-Service - gives this super-powers to every .NET developer.
 
-        </div>
-      </div>
-    </section>
+In the beginning of the talk we discuss compilers in general. How do they work? What makes them so complex to develop?
 
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Frühere Termine</h2>
-          </div>
-        </div>
-        <div class="row">
+Then we introduce Roslyn and discuss how and why it "changed the game" for .NET developers. We present few concrete projects built on top of Roslyn, and move toward examples of potential usage of Roslyn in our own projects. In particular, we discuss how to utilize Roslyn to increase code quality of our own projects.
+                </p>
+            </dd>
+            <dt>Talk 2</dt>
+            <dd>
+                <p><strong>Ralph Mayr: This is not your father's COBOL</strong></p>
+                <p>
+Despite being over 50 years old COBOL today is more relevant than ever before. It powers applications of the world's most crucial industries, including baking, healthcare and aviation. But as the software industry is changing rapidly, how can organizations bridge the ever-widening gap between their core business applications and the modern agile development world with its microservices, mobile devices and the Cloud?
+In this hands-on, live-coding session we're going to explore some answers to those questions. We'll start with the foundations of COBOL and Visual COBOL (the COBOL dialect that runs on the .NET CLR), and see how that fits in to a modern IT landscape.
+                </p>
+            </dd>
+            <dt>Talk 3</dt>
+            <dd>To be announced.</dd>
+        </dl>
+        
+        <h2>Frühere Termine</h2>
 
-          
         <h3>.NET Stammtisch #3 (<a href="https://www.meetup.com/NET-Stammtisch-Linz/events/243674915/">Meetup</a>, <a href="https://www.facebook.com/events/1658423457542239">Facebook</a>)</h3>
         <dl class="dl-horizontal">
             <dt>Datum</dt><dd>24.10.2017, 18:30</dd>
@@ -195,73 +145,6 @@ Bei dem vorgezeigten Experiment handelt es sich nicht um ein fiktives Beispiel s
             <li><a href="https://docs.google.com/presentation/d/1GVXNlJutGkuT_8ZxJs0XUU4PO1opBnmvN0vh75T83VQ">intro-page</a></li>
             <li>Du möchtest einen Vortrag halten oder eine Location zur Verfügung stellen? Melde dich einfach per E-Mail bei <a href="mailto:organizers@dotnetstammtisch.at">Gergö &amp; Christoph</a>.</li>
         </ul>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
-
-  </body>
-
+    </div>
+</body>
 </html>
