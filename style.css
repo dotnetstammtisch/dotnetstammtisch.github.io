@@ -1,0 +1,21 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.talk-number {
+    font-size: 40px;
+    line-height: 40px;
+    color: lightgrey;
+    padding: 0 10px;
+}
+
+.meeting {    
+    margin-bottom: 20px;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.meeting.active {
+    border: 2px solid blue;
+}
